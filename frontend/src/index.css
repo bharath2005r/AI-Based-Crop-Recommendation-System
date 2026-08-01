@@ -1,0 +1,27 @@
+/* Reset & Base Setup */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #0b2414;
+  color: #1a2e21;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Chrome, Safari, Edge, Opera remove number input arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox remove number input arrows */
+input[type=number] {
+  -moz-appearance: textfield;
+}
