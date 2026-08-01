@@ -1,6 +1,11 @@
+import sys
+import os
+from typing import Optional
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
-from typing import Optional
+
+# Ensure current backend folder is in sys.path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from schemas import CropInput
 from predict import predict_crop
