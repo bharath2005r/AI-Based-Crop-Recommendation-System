@@ -1,5 +1,11 @@
 # 🌱 AI-Based Crop Recommendation System
 
+[![Live Demo](https://img.shields.io/badge/Live--Demo-Vercel-brightgreen?style=for-the-badge&logo=vercel)](https://ai-based-crop-recommendation-system-eight.vercel.app/)
+[![API Backend](https://img.shields.io/badge/API--Backend-Render-blue?style=for-the-badge&logo=render)](https://crop-recommendation-api-07sp.onrender.com)
+
+> 🚀 **Live Application**: [https://ai-based-crop-recommendation-system-eight.vercel.app/](https://ai-based-crop-recommendation-system-eight.vercel.app/)  
+> ⚡ **Live API Swagger Docs**: [https://crop-recommendation-api-07sp.onrender.com/docs](https://crop-recommendation-api-07sp.onrender.com/docs)
+
 An intelligent machine learning web application that assists farmers and agricultural enthusiasts in selecting the most suitable crop to cultivate based on specific soil nutrients, environmental parameters, and real-time live weather conditions.
 
 ---
